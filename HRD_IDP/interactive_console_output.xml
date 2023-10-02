@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230925 13:45:52.751" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\lenovo\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Post Request">
+<arg>session</arg>
+<arg>${keycloke_url}</arg>
+<arg>headers=${header}</arg>
+<arg>data=${data}</arg>
+<msg timestamp="20230925 13:45:53.595" level="FAIL">No keyword with name 'Post Request' found.</msg>
+<status status="FAIL" starttime="20230925 13:45:53.595" endtime="20230925 13:45:53.595"/>
+</kw>
+<status status="PASS" starttime="20230925 13:45:52.799" endtime="20230925 13:45:56.180"/>
+</kw>
+<status status="PASS" starttime="20230925 13:45:52.797" endtime="20230925 13:45:56.180"/>
+</test>
+<status status="PASS" starttime="20230925 13:45:52.754" endtime="20230925 13:45:56.182"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
